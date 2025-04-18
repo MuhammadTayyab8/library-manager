@@ -23,10 +23,12 @@
    git clone https://github.com/your-username/library-manager.git
    cd library-manager
 
-**Run the program**
-python your_script_name.py
+2. **Run the program**
+   ```bash
+   python your_script_name.py
 
 **Follow the menu prompts to manage your collection:**
+
 Welcome to Your Book Collection Manager!
 1. Add a new book
 2. Remove a book
@@ -49,13 +51,16 @@ read (boolean: True/False)
 Uses simple file I/O and JSON to persist data.
 
 # File Structure
+
 📦 library-manager/
+ ┣ 📄 books_data.json        # JSON file to store book collection
+ ┗ 📄 library_manager.py     # Main CLI Python script
 
- ┣ 📄 books_data.json
- ┗ 📄 library_manager.py 
 
+# 🛠️ Built With
 
-🛠️ Built With
 Python 3.x
+
 JSON for data storage
+
 OOP (Classes & Methods)
