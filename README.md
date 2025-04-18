@@ -50,6 +50,7 @@ Uses simple file I/O and JSON to persist data.
 
 # File Structure
 📦 library-manager/
+
  ┣ 📄 books_data.json
  ┗ 📄 library_manager.py 
 
